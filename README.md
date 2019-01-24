@@ -1,2 +1,1 @@
-# isitquestion
-a shitty neocities website
+https://isitquestion.neocities.org/
