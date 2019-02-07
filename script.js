@@ -70,7 +70,7 @@ function refresh(){
 }
 async function main()
 {
-    const res = await fetch('questions.json');
+    const res = await fetch('https://raw.githubusercontent.com/regalhotpocket/questions/master/questions.json');
     const data = await res.json();
     const model = process(data);
     starts = model[0];
